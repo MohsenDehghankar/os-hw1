@@ -9,7 +9,7 @@
   
   
   <link rel="shortcut icon" href="../img/favicon.ico">
-  <title>Mabox - HW1</title>
+  <title>Mabox - OS-HW1</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
 
   <link rel="stylesheet" href="../css/theme.css" />
@@ -38,7 +38,7 @@
     <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
     <div class="wy-side-scroll">
       <div class="wy-side-nav-search">
-        <a href=".." class="icon icon-home"> HW1</a>
+        <a href=".." class="icon icon-home"> OS-HW1</a>
         <div role="search">
   <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
     <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
@@ -71,6 +71,14 @@
     <li class="toctree-l2"><a class="reference internal" href="#_6">  نصاب</a>
     </li>
     <li class="toctree-l2"><a class="reference internal" href="#_7">  امنیت</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#access-control">access control</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#authentication">authentication</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#file-encryption">file encryption</a>
+    </li>
+        </ul>
     </li>
     <li class="toctree-l2"><a class="reference internal" href="#_8">  ساخت توزیع</a>
     </li>
@@ -92,7 +100,7 @@
       
       <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
         <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-        <a href="..">HW1</a>
+        <a href="..">OS-HW1</a>
       </nav>
 
       
@@ -118,17 +126,308 @@
                 <h1 id="maboxlinux">MaboxLinux</h1>
 <h2 id="_1"><a name="general"></a> <p dir="rtl" style="font-size: 20px"> اطلاعات کلی</h2>
 <p dir="rtl">
-سلام. شسمینبتاسیمبا شکسمیبشسکمیبتن
+Mabox یک توزیع سریع، سبک و عملیاتی است. این توزیع بر پایه لینوکس manjaro است و از openbox که یک window manager سبک و شخصی سازی شده است استفاده می کند.
+</p>
+
+<p><a href="https://github.com/danakj/openbox">https://github.com/danakj/openbox</a></p>
+<p dir="rtl">
+openbox بسیار قابل شخصی سازی شدن است و configurable‌ است و به منابع سخت افزاری زیادی نیاز ندارد و در عین حال ساده است.
+</p>
+
+<p dir="rtl">
+mabox به منابع سخت افزاری کمی نیاز دارد و برای کاربرد هایی مثل کامپیوتر های شخصی (یا هر جایی که منابع زیادی در اختیار نداریم) مفید است.
+</p>
+
+<p dir="rtl">
+mabox از CrunchBang الهام گرفته است که یک توزیع بر پایه debian است و برای سیستم های با منابع محدود توسط  Philip Newbrough طراحی شده است. mabox همچنین از برخی از مولفه های Xfce‌و LXDE استفاده می کند.
+</p>
+
+<p dir="rtl">
+توسط Daniel Naparo توسعه داده شده است که ملیت لهستانی دارد.
+</p>
+
+<p dir="rtl">
+لینک مخزن اصلی توزیع:
+</p>
+
+<p><a href="https://git.maboxlinux.org/Mabox/iso-profiles/graph">https://git.maboxlinux.org/Mabox/iso-profiles/graph </a></p>
+<p dir="rtl">
+لینک مخزن گیت هاب برای برخی از مولفه های توزیع:
+</p>
+
+<p><a href="https://github.com/MaboxOS">https://github.com/MaboxOS </a></p>
+<p>forum:<br></p>
+<p><a href="https://forum.maboxlinux.org/">https://forum.maboxlinux.org/</a></p>
+<p dir="rtl">
+لوگو:
+</p>
+
+<p><img alt="" src="https://raw.githubusercontent.com/MohsenDehghankar/os-hw1/gh-pages/images/3D_logo.png" /></p>
+<p>
+no plymouth
 </p>
 
 <h2 id="_2"><a name="hardware"></a> <p dir="rtl" style="font-size: 20px"> مشخصات سخت افزار</h2>
+<p>Ali </p>
 <h2 id="_3"><a name="package"></a> <p dir="rtl" style="font-size: 20px"> مدیریت بسته</h2>
+<p dir="rtl">
+یکی از قابلیت های بسیار جالب این توزیع، قابلیت نصب چندین kernel و انتخاب بین آن‌ها است.<br>
+توزیع mabox از توزیع Manjaro به وجود آمده است و از ریپازیتوری های رسمی آن استفاده می‌کند. همچنین ریپازیتوری های اختصاصی کوچکی نیز دارد.
+
+</p>
+
+<p dir="rtl">
+توزیع manjaro نیز از Arch به وجود آمده است.
+
+</p>
+
+<p dir="rtl">
+هر ۳ توزیع نام برده از pacman package manager استفاده می‌کنند. این  package-manager  به زیان C نوشته شده است. از ویژگی های آن این است که به صورت خودکار برای نصب package هایی که می خواهیم، پیشنیاز های آن ها را نیز نصب می کند.
+</p>
+
+<p dir="rtl">
+این توزیع مانند monjaro از rolling release update بهره می‌برد. که معنای آن این است که سیستم همواره به صورت عادی update می‌شود و نیازی به upgrade کردن ندارد. این شیوه معایبی نیز دارد. مانند اینکه نمی توانیم فقط بخشی از سیستم را update کنیم و باید همه سیستم را باهم update کنیم.
+</p>
+
+<p dir="rtl">
+در این لینک لیست تمام مخازن mirror برای pacman را می‌بینید.
+</p>
+<p><a href="https://www.archlinux.org/mirrorlist/all/">https://www.archlinux.org/mirrorlist/all/</a></p>
+<p dir="rtl">
+مخازن جداگانه ای برای سورس و امنیت ندارد و همه چیز در یک مخزن نگهداری می شود.
+</p>
+
+<p dir="rtl">
+برای مشاهده package های استفاده شده به صورت پیش فرض، از دستور زیر استفاده می کنیم:
+</p>
+<p>  pacman -Qe </p>
+
+<p dir="rtl">
+بسته های وصله زده شده، دارای مخزن اختصاصی???????
+</p>
+
 <h2 id="_4"><a name="file"></a> <p dir="rtl" style="font-size: 20px"> مدیر فایل</h2>
+<p dir="rtl">
+مدیر فایل mabox :<br>
+نام مدیر فایل :<br>
+</p>
+
+<p><img alt="" src="https://raw.githubusercontent.com/MohsenDehghankar/os-hw1/gh-pages/images/dpkg.png" /></p>
+<p><a href="https://maboxlinux.org/users-guide/file-manager-pcmanfm/">https://maboxlinux.org/users-guide/file-manager-pcmanfm/</a></p>
+<p dir="rtl">
+امکانات ارائه شده :<br>
+تمامی موارد بعدی در صورت اینکه توسط pcmanfm پشتیبانی شوند جزو امکانات ارايه شده هستند . لذا برای اینکه مطالب تکراری نشوند صرفا امکاناتی را در این قسمت معرفی خواهیم کرد که پایین تر به آن ها اشاره نشده است. 
+</p>
+
+<p dir="rtl">
+پشتیبانی از چندین زبان<br>
+پشتیبانی از drag and drop<br>
+جست و جو (سرچ) پیشرفته ی فایل سیستم<br>
+امکان کشیده شدن فایل ها بین tab های مختلف<br>
+قابلیت سفارشی سازی طرح (layout ) پنجره ی اصلی<br>
+و …(اضافه خواهد شد)<br>
+</p>
+
+<p dir="rtl">
+دسترسی به فایل های تحت شبکه :<br>
+دارد .<br>
+برای مثال از فرمت زیر برای ssh connection استفاده میشود .<br>
+ssh://user@server/directory/to/browse<br>
+در لینک زیر نیز به این اشاره شده است.
+</p>
+
+<p dir="rtl">
+پیش نمایش فایل ها : <br>
+چند مثال از پیش نمایش فایل های مختلف
+</p>
+
+<p><img alt="" src="https://raw.githubusercontent.com/MohsenDehghankar/os-hw1/gh-pages/images/mabox-filemanager-1.png" /></p>
+<p dir="rtl">
+برای مثال برای تصویر کوچک شده ی آن را نمایش می دهد. برای برنامه ی سی پلاس پلاس و پایتون و اچ تی ام ال هم متناسب با نوع آن ها پیش نمایش خاصی دارد .
+</p>
+
+<p dir="rtl">
+امکان جابه جایی در قالب تب :<br>
+دارد و از طریق alt - # میتوان بین تب ها جا به جا شد .
+</br>
+</p>
+
+<p><img alt="" src="https://raw.githubusercontent.com/MohsenDehghankar/os-hw1/gh-pages/images/mabox-filemanager-2.png" /></p>
+<p dir="rtl">
+مدل های نمایش متنوع :<br>
+پشتیبانی از نمایش های مختلف compact , thumbnail , detail, icon
+</p>
+
+<p><img alt="" src="https://raw.githubusercontent.com/MohsenDehghankar/os-hw1/gh-pages/images/mabox-filemanager-3.png" /></p>
+<p dir="rtl">
+پشتیبانی از UTF-8 :<br>
+دارد.<br>
+
+
+
+
+نمایش وضعیت انتقال , سرعت و حافظه :<br>
+نشان نمی دهد . نه سرعت باقی مانده و نه حافظه را نشان نمی دهد .<br>
+
+
+
+پشتیبانی باز شدن در حالت کاربر ریشه : <br>
+دارد .<br>
+</p>
+
+<p><img alt="" src="https://raw.githubusercontent.com/MohsenDehghankar/os-hw1/gh-pages/images/mabox-filemanager-4.png" /></p>
+<p dir="rtl">
+امکان سفارشی سازی(مثلا افزون به گزینه های ارسال به …):<br>
+دارد<br>
+قابلیت سفارشی سازی طرح (layout ) پنجره ی اصلی مثلا انتخاب نمایش دلخواه از نمایش های متنوع 
+امکان سورت کردن بر اساس ترتیب دلخواه
+و …<br>
+لیستی از custom actions در لینک زیر به همراه کامند مربوط به آن در لینک زیر موجود است .<br>
+</p>
+
+<p><a href="http://www.lxlinux.com/pcmanfm-actions.html">http://www.lxlinux.com/pcmanfm-actions.html</a></p>
+<p dir="rtl">
+پشتیبانی از درهم سازی:<br>
+از سرچ کردن اطلاعات دقیق و موثقی به دست نیاوردم و منتظر پاسخ تیم pcmanfm هستم .
+از آنجایی که از checksum پشتیبانی میکند پس میتوان گفت از درهم سازی نیز پشتیبانی می کند.
+</p>
+
+<p dir="rtl">
+رایت کردن روی سی دی / دی.وی.دی:<br>
+قابلیت خواندن از روی سی دی و دی وی دی را دارد اما راجع به اینکه ایا قادر به نوشتن هم هست یا نه اطلاعات دقیق و موثقی در اینترنت نیافتم و منتظر پاسخ pcmanfm هستم .
+</p>
+
+<p dir="rtl">
+نصب:<br>
+برای نصب pcmanfm در محیط mabox باید از دستور زیر استفاده کرد .
+</p>
+
+<p> 
+ sudo pacman -S pcmanfm
+ </p>
+
+<p dir="rtl">
+تغییر نام چند فایل به صورت هم زمان :<br>
+این قابلیت را دارا نیست .
+</p>
+
+<p><img alt="" src="https://raw.githubusercontent.com/MohsenDehghankar/os-hw1/gh-pages/images/mabox-filemanager-5.png" /></p>
+<p dir="rtl">
+امکان چوب الف :<br>
+چوب الف (bookmark) یکی از امکانات ارایه شده توسط pcmanfm است . 
+</p>
+
+<p><img alt="" src="https://raw.githubusercontent.com/MohsenDehghankar/os-hw1/gh-pages/images/mabox-filemanager-6.png" /></p>
 <h2 id="_5"><a name="desktop"></a> <p dir="rtl" style="font-size: 20px"> میزکار</h2>
+<p>Ali</p>
 <h2 id="_6"><a name="install"></a> <p dir="rtl" style="font-size: 20px"> نصاب</h2>
+<p dir="rtl">
+متاسفانه نام آن را نتوانستم پیدا کنم.<br>
+بسیار نصب ساده ای داشت و مهم ترین ویژگی های نصبش را در تصویر زیر می‌بینید.
+</p>
+
+<p><img alt="" src="https://raw.githubusercontent.com/MohsenDehghankar/os-hw1/gh-pages/images/installer.png" /></p>
+<p dir="rtl">
+نحوه partitioning در ۲ حالت erase و manual می تواند قرار بگیرد.<br>
+برای حافظه swap نیز ۳ حالت وجود دارد.<br>
+مکان boot loader  نیز قابل انتخاب است.<br>
+از bios و uefi پشتیبانی می‌کند.<br>
+</p>
+
+<p dir="rtl">
+به علت تازه بودن این توزیع، فعلا فقط یک نوع iso برای آن وجود دارد که نسخه کامل می باشد و قابلیت نصب آنلاین را ندارد.
+</p>
+
 <h2 id="_7"><a name="security"></a> <p dir="rtl" style="font-size: 20px"> امنیت</h2>
+<p><a href="https://wiki.archlinux.org/index.php/security">https://wiki.archlinux.org/index.php/security</a></p>
+<h4 id="access-control">access control</h4>
+<p dir="rtl">
+این توزیع به طور پیش فرض از DAC استفاده می کند.اما MAC بوسیله apparmor همانند arch در آن نصب و پیاده سازی شده است. و قابل استفاده است.<br>
+توضیحات در مورد کنترل دسترسی DAC در داک امنیت دبین داده شد.<br>
+</p>
+
+<h4 id="authentication">authentication</h4>
+<p dir="rtl">
+همانند دبین، احراز اصالت در این توزیع از manjaro و آن هم از arch linux به ارث برده شده است که PAM است.
+توضیحات در داک امنیت دبین
+</p>
+
+<h4 id="file-encryption">file encryption</h4>
+<p dir="rtl">
+در این توزیع به طور پیش فرض ابزار gpg ( GnuPG ( برای رمز فایل ها و دایرکتوری ها وجود دارد.
+همچنین می توان از ابزار encfs که در pamac وجود دارد فایلها را رمز کرد. (به طور پیش فرض نیست).
+</p>
+
+<p><a href="https://wiki.manjaro.org/index.php?title=Encfs">https://wiki.manjaro.org/index.php?title=Encfs</a></p>
+<p dir="rtl">
+امکان همگام سازی با حساب کاربری و ابری وجود ندارد و در صورت نیاز باید ابزار مناسب را نصب کرد.<br>
+به طور پیش فرض iptables به عنوان firewall وجود دارد.<br>
+برای همگام سازی پرونده ها باید از ابزار هایی که بطور پیش فرض نصب نیستند استفاده کرد.<br>
+</p>
+
+<p dir="rtl">
+برای احراز هویت با اثر انگشت باید از ابزار های arch مثل https://github.com/RogueScholar/fingerprint-gui استفاده  کرد که به طور پیش فرض وجود ندارند.
+</p>
+
+<p dir="rtl">
+در این توزیع مشابه manjaro و آن هم مشابه arch از مدیریت بسته pacman استفاده می شود.
+</p>
+
+<p dir="rtl">
+در pacman برای بررسی اصالت بسته ها (طبق توضیحات پیش زمینه ای که در داک امنیت دبین داده شد)، از طریق sign کردن با کلید های GnuPG انجام می شود.
+</p>
+
+<p dir="rtl">
+هر developer باید بوسیله ابزار pamac-key یک جفت کلید برای خود درست بکند. (کلید خصوصی نزد خودش می ماند و برای امضا کردن است).
+</p>
+
+<p dir="rtl">
+سپس او باید کلید خود را بوسیله سه تا از کلید های Master KEy امضا کند.
+</p>
+
+<p dir="rtl">
+کلید های master key‌از این لینک قابل مشاهده هستند:
+</p>
+
+<p><a href="https://www.archlinux.org/master-keys/">https://www.archlinux.org/master-keys/</a></p>
+<p dir="rtl">
+هر کلید در این لبیست یک owner دارد.<br>
+برای این که developer کلیدش امضا شود، باید owner آن مستر کلید، کلید developer را امضا کند.<br>
+به این مدل web of trust‌می گویند.<br>
+سپس developer بسته خود را با کلید خود رمز می کند.<br>
+هنگام نصب بسته، ابتدا کلید developer‌توسط کلید های master که مشخص و public هستند verify می شوند. سپس مشخص می شود که این developer مورد تایید pacman است.<br>
+</p>
+
+<p dir="rtl">
+حال با کلید developer ، خود بسته verify می شود. که مشخص می شود این بسته برای آن developer است.
+اطلاعات بیشتر و کار با pacman-key
+</p>
+
+<p><a href="https://wiki.archlinux.org/index.php/Pacman/Package_signing">https://wiki.archlinux.org/index.php/Pacman/Package_signing</a></p>
+<p dir="rtl">
+برای کنترل دسترسی به میکروفون و وب کم به طور پیش فرض ابزاری در این توزیع وجود ندارد.
+</p>
+
 <h2 id="_8"><a name="build"></a> <p dir="rtl" style="font-size: 20px"> ساخت توزیع</h2>
+<p>Ali</p>
 <h2 id="_9"><a name="doc"></a> <p dir="rtl" style="font-size: 20px"> مستندات</h2>
+<p dir="rtl">
+مستندات توزیع mabox :<br>
+وجود مستندات کاربری(راهنما ها):<br>
+در لینک زیر راهنمای کاربری این توزیع وجود دارد :<br>
+</p>
+
+<p><a href="https://maboxlinux.org/users-guide/">https://maboxlinux.org/users-guide/</a></p>
+<p dir="rtl">
+که در آن نکاتی برای استفاده ی راحت کاربر از توزیع ارایه شده و  شامل  کلیاتی برای آشنایی با شیوه ی دانلود و نصب و معرفی عناصر دسکتاپ و مدیریت نرم افزار و فایل و … است و صرفا راجع به نحوه ی تعامل با سیستم است.
+</p>
+
+<p dir="rtl">
+وجود مستندات فنی (وجود مستندات برای توسعه دهندگان):<br>
+مستندات فنی متنی به آن معنا وجود ندارد. اگرچه در لینک زیر مخازن مربوط به توزیع قرار دارد که با خواندن آن ها می توان به جزئیات آن پی برد .
+</p>
+
+<p><a href="https://git.maboxlinux.org/Mabox">https://git.maboxlinux.org/Mabox</a></p>
               
             </div>
           </div>

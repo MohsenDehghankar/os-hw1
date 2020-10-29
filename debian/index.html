@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
-
+  
+  
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
+    
+    
+    
     <link rel="shortcut icon" href="../img/favicon.ico">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
     <title>Debian - OS-HW1</title>
     <link href="../css/bootstrap-3.3.7.min.css" rel="stylesheet">
     <link href="../css/font-awesome-4.7.0.css" rel="stylesheet">
@@ -17,726 +18,591 @@
     <link rel="stylesheet" href="../css/highlight.css">
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
 
     <script src="../js/jquery-3.2.1.min.js"></script>
     <script src="../js/bootstrap-3.3.7.min.js"></script>
     <script src="../js/highlight.pack.js"></script>
-
+    
     <base target="_top">
     <script>
-        var base_url = '..';
-        var is_top_frame = false;
-
+      var base_url = '..';
+      var is_top_frame = false;
+        
         var pageToc = [
-            {
-                title: "Debian", url: "#_top", children: [
-                    {title: "  \u0627\u0637\u0644\u0627\u0639\u0627\u062a \u06a9\u0644\u06cc", url: "#_1"},
-                    {
-                        title: "  \u0645\u0634\u062e\u0635\u0627\u062a \u0633\u062e\u062a \u0627\u0641\u0632\u0627\u0631",
-                        url: "#_2"
-                    },
-                    {title: "  \u0645\u062f\u06cc\u0631\u06cc\u062a \u0628\u0633\u062a\u0647", url: "#_3"},
-                    {title: "  \u0645\u062f\u06cc\u0631 \u0641\u0627\u06cc\u0644", url: "#_4"},
-                    {title: "  \u0645\u06cc\u0632\u06a9\u0627\u0631", url: "#_5"},
-                    {title: "  \u0646\u0635\u0627\u0628", url: "#_6"},
-                    {title: "  \u0627\u0645\u0646\u06cc\u062a", url: "#_7"},
-                    {title: "  \u0633\u0627\u062e\u062a \u062a\u0648\u0632\u06cc\u0639", url: "#_9"},
-                    {title: "  \u0645\u0633\u062a\u0646\u062f\u0627\u062a", url: "#_10"},
-                ]
-            },
+          {title: "Debian", url: "#_top", children: [
+              {title: "  \u0627\u0637\u0644\u0627\u0639\u0627\u062a \u06a9\u0644\u06cc", url: "#_1" },
+              {title: "  \u0645\u0634\u062e\u0635\u0627\u062a \u0633\u062e\u062a \u0627\u0641\u0632\u0627\u0631", url: "#_2" },
+              {title: "  \u0645\u062f\u06cc\u0631\u06cc\u062a \u0628\u0633\u062a\u0647", url: "#_3" },
+              {title: "  \u0645\u062f\u06cc\u0631 \u0641\u0627\u06cc\u0644", url: "#_4" },
+              {title: "  \u0645\u06cc\u0632\u06a9\u0627\u0631", url: "#_5" },
+              {title: "  \u0646\u0635\u0627\u0628", url: "#_6" },
+              {title: "  \u0627\u0645\u0646\u06cc\u062a", url: "#_7" },
+              {title: "  \u0633\u0627\u062e\u062a \u062a\u0648\u0632\u06cc\u0639", url: "#_9" },
+              {title: "  \u0645\u0633\u062a\u0646\u062f\u0627\u062a", url: "#_10" },
+          ]},
         ];
 
     </script>
     <script src="../js/base.js"></script>
-    <script src="../search/main.js"></script>
+      <script src="../search/main.js"></script> 
 </head>
 
 <body>
 <script>
-    if (is_top_frame) {
-        $('body').addClass('wm-top-page');
-    }
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
 </script>
 
 
+
 <div class="container-fluid wm-page-content">
-    <a name="_top"></a>
+  <a name="_top"></a>
+    
 
+    
+    
+      
+    
 
-    <div class="row wm-article-nav-buttons" role="navigation" aria-label="navigation">
-
-        <div class="wm-article-nav pull-right">
-            <a href="../mabox/" class="btn btn-xs btn-default pull-right">
-                Next
-                <i class="fa fa-chevron-right" aria-hidden="true"></i>
-            </a>
-            <a href="../mabox/" class="btn btn-xs btn-link">
-                Mabox
-            </a>
-        </div>
-
-        <div class="wm-article-nav">
-            <a href=".." class="btn btn-xs btn-default pull-left">
-                <i class="fa fa-chevron-left" aria-hidden="true"></i>
-                Previous</a><a href=".." class="btn btn-xs btn-link">
-            Home
-        </a>
-        </div>
-
+  <div class="row wm-article-nav-buttons" role="navigation" aria-label="navigation">
+    
+    <div class="wm-article-nav pull-right">
+      <a href="../mabox/" class="btn btn-xs btn-default pull-right">
+        Next
+        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+      </a>
+      <a href="../mabox/" class="btn btn-xs btn-link">
+        Mabox
+      </a>
     </div>
+    
+    <div class="wm-article-nav">
+      <a href=".." class="btn btn-xs btn-default pull-left">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i>
+        Previous</a><a href=".." class="btn btn-xs btn-link">
+        Home
+      </a>
+    </div>
+    
+  </div>
 
+    
 
     <h1 id="debian">Debian</h1>
-    <h2 id="_1"><a name="general"></a>
-        <p dir="rtl" style="font-size: 20px"> اطلاعات کلی</h2>
-    <p dir="rtl">
-        debian یک توزیع گنو لینوکسی است که کاملا رایگان و متن باز است و توسط انجمن The Debian Project توسعه داده می شود.
-        این انجمن توسط lan Murdock در آگوست 1993 تاسیس شد. اولین نسخه debian در سپتامبر 1993 منتشر شد. اولین نسخه پایدار
-        آن در 17 ژانویه 1996 منتشر شد. (Buzz).
-        این توزیع برای کامپیوتر های شخصی و سرور ها کاربرد دارد. همچنین debina‌پایه بعضی از توزیع های دیگر از جمله ubuntu
-        است.
-    </p>
-
-    <p dir="rtl">
-        پروژه دبین توسط افراد داوطلب در اکثر نقاط جهان توسعه داده می شود و توسط Debina Project Leader رهبری می شود.
-        از سال 1994 دبین توسط سازمان free software foundation حمایت می شد. بعد از اتمام این حمایت، debina project‌سازمان
-        non profit ای تحت عنوان Software in the public interes (SPI) را تاسیس کرد که برای حمایت از برنامه های open
-        source تاسیس شد.
-    </p>
-
-    <p dir="rtl">
-        Ian Murdock اولین لیدر debian project به مدت ۳ سال بوده است. او یک مهندس نرم افزار آمریکایی بوده است و نام
-        debian را از اول نام خود و همسرش Debra Lynn برگزید.
-        در حال حاضر لیدر این پروژه Jonathan Carter که اهل آفریقای جنوبی است.
-    </p>
-
-    <p><a href="https://jonathancarter.org/about/">https://jonathancarter.org/about/</a></p>
-    <p dir="rtl">
-        آخرین انتشار این توزیع مربوط به سپتامبر 2020 و نسخه 10.6 است.
-        لیست تمام debian developer ها که حدود 1000 نفر هستند در این لیست آمده است:
-    </p>
-
-    <p><a href="https://nm.debian.org/public/people/dd_all/">https://nm.debian.org/public/people/dd_all/</a></p>
-    <p dir="rtl">
-        در این شکل توزیع ملیت توسعه دهندگان مشاهده می شود:
-    </p>
-
-    <p><img alt="location"
-            src="https://raw.githubusercontent.com/MohsenDehghankar/os-hw1/gh-pages/images/location.png"/></p>
-    <p dir="rtl">
-        لیست تمامی نسخه های منتشر شده در این شکل آمده است.
-        نام این توزیع ها از شخصیت های Toy Story 1995 انتخاب می شوند.
-    </p>
-
-    <p><img alt="" src="https://raw.githubusercontent.com/MohsenDehghankar/os-hw1/gh-pages/images/releases.png"/></p>
-    <p dir="rtl">
-        در حال حاضر این برنچ ها در توسعه این توزیع فعال هستند:
-    </p>
-
-    <p>
-    <ul>
-        <li>oldstable - The previous stable release (Stretch).</li>
-        <li>stable - The current stable release (Buster).</li>
-        <li>testing - The next generation release (Bullseye).</li>
-        <li>unstable - The unstable development release (Sid), where new or updated packages are introduced</li>
-    </ul>
-    </p>
-
-    <p><img alt="" src="https://raw.githubusercontent.com/MohsenDehghankar/os-hw1/gh-pages/images/chart.png"/></p>
-    <p dir="rtl">
-        لوگو توزیع:
-    </p>
-
-    <p><img alt="" src="https://raw.githubusercontent.com/MohsenDehghankar/os-hw1/gh-pages/images/Debian_logo.png"/></p>
-    <p dir="rtl">
-        ویدیو زیر plymouth های debian را نشان می دهد که به طور پیش فرض فعال نیستند:
-    </p>
-
-    <p><a href="https://www.youtube.com/watch?v=N7iGvHMvd4Q">https://www.youtube.com/watch?v=N7iGvHMvd4Q</a></p>
-    <h2 id="_2"><a name="hardware"></a>
-        <p dir="rtl" style="font-size: 20px"> مشخصات سخت افزار</h2>
-    <p>
-        Supported architectures:
-    <ul>
-        <li>64-bit PC (amd64)</li>
-        <li>64-bit ARM (AArch64)</li>
-        <li>EABI ARM (armel)</li>
-        <li>Hard Float ABI ARM (armhf)</li>
-        <li>32-bit PC (i386)</li>
-        <li>MIPS (big endian)</li>
-        <li>MIPS (little endian)</li>
-        <li>64-bit MIPS (little endian)</li>
-        <li>POWER Processors</li>
-        <li>IBM System z</li>
-    </ul>
-
-    Recommended System Requirements (amd64):
-    <ul>
-        <li>A Pentium 4, 1GHz system</li>
-        <li>RAM:
-            <ul>
-                <li>No desktop: 512 megabytes</li>
-                <li>With Desktop: 1 gigabyte</li>
-            </ul>
-        </li>
-        <li>
-            Hard Drive:
-            <ul>
-                <li>No desktop: 2 gigabytes</li>
-                <li>With Desktop: 10 gigabytes</li>
-                </li>
-            </ul>
-    </ul>
-    </p>
-
-    <p dir="rtl">
-        محدودیت حافظه گرافیکی بستگی به محیط گرافیکی انتخابی ما دارد. اما به شخصه روی VM با حافظه گرافیکی 16MB نصب کردم و
-        مشکلی نداشت.
-        نسخه هایی از دبیان قابلیت پشتیبانی از PAE را دارند.و<br>
-        کرنل لینوکس از NX bit بر روی پردازنده هایی که این ویژگی را دارند، پشتیبانی می‌کند.<br>
-
-    </p>
-
-    <p dir="rtl">
-        شناسایی وب کم و کارت شبکه و … بستگی به سخت افزار دارد. اگر درایور های سخت افزار ما در کرنل لینوکس باشند،
-        پشتیبانی می‌کند.
-        درباره پشتیبانی از کارت گرافیک نیز همان مسئله قبلی برقرار است. برای کارت های گرافیک مختلف هم درایور های open
-        source وجود دارد و هم ابزار های proprietary.
-    </p>
-
-    <h2 id="_3"><a name="package"></a>
-        <p dir="rtl" style="font-size: 20px"> مدیریت بسته</h2>
-    <p dir="rtl">
-        مدیریت بسته سیستم عامل دبین :<br>
-        نام مدیر بسته: <br>
-        این سیستم عامل چند مدیر بسته دارد که عبارتند از : dpkg , apt مدیر بسته ی dpkg (debian package manager) قابلیت
-        نصب و حذف بسته ها را دارد ولی بیشتر از این خدمتی ارائه نمی کند. برای مثال اگر بسته ای که میخواهید نصب کنید
-        نیازمند بسته ی دیگری که باید از پیش نصب شده باشد، باید آن بسته را به طور دستی نصب کنید .
-
-    </p>
-    <p dir="rtl">
-        مدیر بسته ی apt لیستی از بسته های قابل بارگیری دارد و از آن لیست برای پیدا کردن بسته هایی که نیاز به ارتقاء
-        دارند استفاده می شود .به هنگام استفاده از apt ، این مدیر بسته برای نصب و پاک کردن بسته ها dpkg را فراخوانی می
-        کند اما مزیت آن نسبت به dpkg این است که این مدیر بسته قادر است به طور اتوماتیک مشکلات وابستگی بسته ها (packet
-        dependencies) را حل کند .
-    </p>
-
-    <p><a href="https://wiki.debian.org/SourcesList">
-    <p dir="rtl">لیست بسته های apt</p></a></p>
-    <p dir="rtl">
-        به مدیر بسته ی dpkg اصطلاحا ابزار سطح پایین (low-level tool) و به مدیر بسته ی apt ابزار سطح بالا (high-level
-        tool) نیز گفته می شود .
-        <br>
-        در کنار این دو شایان ذکر است نامی از واسط مبتنی بر متن aptitude ببریم که به کاربر این اجازه را می دهد که لیست
-        بسته ها را مشاهده کند و مدیریت لازم برای نصب و حذف و ارتقاء بسته ها را به عمل بیاورد .
-    </p>
-
-    <p><img alt="" src="https://raw.githubusercontent.com/MohsenDehghankar/os-hw1/gh-pages/images/dpkg.png"/></p>
-    <p dir="rtl">
-        بسته های وصله زده شده : <br>
-        لیست نمونه ای از بسته های وصله زده شده (patches) در لینک زیر موجود است .<br>
-    </p>
-
-    <p><a href="https://sources.debian.org/patches/list/1/">https://sources.debian.org/patches/list/1/</a></p>
-    <p dir="rtl">
-        به طور کلی برای دیدن تمامی patch ها می توان از فرمت زیر استفاده کرد .
-    </p>
-    <p><a href="https://sources.debian.org/patches/list/#number/">https://sources.debian.org/patches/list/#number/</a>
-    </p>
-    <p dir="rtl">
-        از طریق فرمت زیر می توان به توضیح تغییرات اعمال شده از طریق patch در ورژن خاصی از بسته ی خاصی دست پیدا کرد.
-    </p>
-    <p><a href="https://sources.debian.org/patches/packagename/version/">https://sources.debian.org/patches/packagename/version/</a>
-    </p>
-    <p dir="rtl">
-        مثال :<br>
-        <a href='https://sources.debian.org/patches/jython/2.7.2+repack1-3/'>https://sources.debian.org/patches/jython/2.7.2+repack1-3/</a><br>
-        از طریق لینک زیر می توان بسته ی مورد نظر را از طریق نام و یا پسوند آن جستجو کرد .<br>
-        <a href="https://sources.debian.org/patches/">https://sources.debian.org/patches/</a>
-    </p>
-
-    <p dir="rtl">
-        شایان ذکر است Patch system استفاده شده توسط دبین Quilt می باشد که مناسب ایجاد patch بر روی هر سایزی از پایگاه کد
-        است. <br><br>
-
-        دارای مخزن اختصاصی:<br>
-        دارای مخازن اختصاصی است که لینک های آن ها در قسمت لیست مخازن استفاده شده قرار داده شده است.<br>
-
-        مخزن آینه:<br>
-        دبیان در سراسر دنیا در سرور های مختلفی توزیع شده است تا به کاربران امکان دسترسی بهتری به آرشیو ها بدهد . استفاده
-        از سرور نزدیک برای کاربر احتمالا سرعت دانلود بیشتری را فراهم می آورد و همچنین لود روی سرور های مرکزی را کاهش می
-        دهد . مخازن آینه ی دبیان میتوانند اولیه (primary ) و یا ثانویه (secondary) باشند .
-        <br>
-
-        مخازن آینه ی اولیه به طور مستقیم با شبکه ی داخلی دبین سینک می شوند و احتمالا پهنای باند بهتری نسبت به ثانویه ها
-        دارند و معمولا دارای تمامی معماری ها هستند . ولی مخازن ثانویه ممکن است محدودیت هایی داشته باشند .
-        <br><br>
-
-        لیستی از مخازن آینه ی بسته های دبیان:<br>
-        https://www.debian.org/mirror/list<br>
-        لیستی از مخازن آینه ی CD images :<br>
-        https://www.debian.org/CD/http-ftp/#mirrors<br>
-        لیستی از مخازن آینه ی ورژن های قدیمی دبیان :<br>
-        https://www.debian.org/distrib/archive<br>
-        لینک زیر مخزن آینه ی دبیان در یکی از دیتا سنتر های ایرانی است.<br>
-        http://mirror.aminidc.com/debian/<br>
-
-    </p>
-
-    <p dir="rtl">
-        بسته های استفاده شده :<br>
-        نسخه ی پخش شده ی پایدار فعلی دبیان (stable release) که buster نام دارد بسته های متفاوتی را شامل می شود که در بخش
-        های مختلف از جمله ویرایشگر ها، کتابخانه ها، وب سرور ها، شبکه، پردازش متن، صداو … دسته بندی شده اند .
-        <br>
-
-        لیستی از دسته بندی و انواع بسته های استفاده شده در لینک زیر موجود است .<br>
-        https://packages.debian.org/stable/<br>
-        جهت مشاهده ی دسته بندی بسته های استفاده در ورژن های قدیمی تر از فرمت زیر استفاده کنید .<br>
-        https://packages.debian.org/oldReleaseName/<br>
-        https://packages.debian.org/jessie<br>
-        برای مشاهده ی بسته های درون هر بخش از فرمت زیر استفاده کنید .<br>
-        https://packages.debian.org/stable/subsectionName/<br>
-        و با کلیک بر روی هر بسته میتوانید جزیات مربوط به آن از جمله اینکه آن بسته چه کاری انجام می دهد و بسته های مرتبط
-        با آن را ببینید.<br>
-        لیست تمامی بسته ها :<br>
-        <a href="https://packages.debian.org/stable/allpackages">https://packages.debian.org/stable/allpackages</a><br>
-        <a href="https://packages.debian.org/stable/allpackages?format=txt.gz">https://packages.debian.org/stable/allpackages?format=txt.gz</a><br>
-        <a href="http://ftp.acc.umu.se/debian/pool/main/">http://ftp.acc.umu.se/debian/pool/main</a><br>
-
-    </p>
-
-    <p dir="rtl">
-        لیست مخازن استفاده شده :<br>
-        مخزن رسمی دبیان :<br>
-        <a href="http://ftp.debian.org/debian/">http://ftp.debian.org/debian</a><br>
-        <a href="http://security.debian.org/debian-security/">http://security.debian.org/debian-security</a><br>
-
-    </p>
-
-    <p><img alt="" src="https://raw.githubusercontent.com/MohsenDehghankar/os-hw1/gh-pages/images/packages.png"/></p>
-    <p dir="rtl">
-        وجود مخازن سورس:<br>
-        با توجه به تصویر بالا <br>
-        <a href="http://ftp.debian.org/debian/">http://ftp.debian.org/debian/</a><br>
-
-        وجود مخازن امنیت:<br>
-        با توجه به تصویر بالا <br>
-        <a href="http://security.debian.org/debian-security/">http://security.debian.org/debian-security/</a><br>
-
-    </p>
-
-    <h2 id="_4"><a name="file"></a>
-        <p dir="rtl" style="font-size: 20px"> مدیر فایل</h2>
-    <p dir="rtl">
-        دبیان به صورت پیش فرض از dolphin استفاده میکند.<br>
-        قابلیت تغییر نام همزمان چند فایل را دارد.<br>
-        قابلیت دسترسی به فایل های تحت شبکه را دارد.<br>
-        قابلیت پیش نمایش فایل ها را دارد.<br>
-        امکان split کردن دارد.<br>
-        قابلیت استفاده از چند تب را دارد.<br>
-        از utf8 پشتیبانی می‌کند.<br>
-        پشتیبانی باز شدن در حالت root را دارد.<br>
-        میزان حافظه خالی را نشان می‌دهد.<br>
-        وضعیت و سرعت انتقال داده را نشان می‌دهد.<br>
-        امکانات سفارشی سازی بسیار گسترده ای دارد.<br>
-        درباره امکان dvd write در اینترنت مطلبی پیدا نکردم. خودم نیز در محیط آن چیزی پیدا نکردم.<br>
-        می توان قابلیت نمایش checksum را نیز به آن اضافه کرد.<br>
-        قابلیت write کردن را در خودش ندارد اما با کمک K3B می تواند.<br>
-        یه صورت پیش‌فرض از bookmark پشتیبانی نمی‌کند اما به راحتی می‌توان همان هدف را با ابزار های دیگرش پیاده کرد.<br>
-    </p>
-
-    <p><img alt="" src="https://raw.githubusercontent.com/MohsenDehghankar/os-hw1/gh-pages/images/filemanager.png"/></p>
-    <h2 id="_5"><a name="desktop"></a>
-        <p dir="rtl" style="font-size: 20px"> میزکار</h2>
-    <p dir="rtl">
-        محیط دسکتاپ در دبین می توانید از بین گزینه های زیر در موقع نصب انتخاب شود:
-
-    </p>
-
-    <p>GNOME<br>
-        Plasma<br>
-        Xfce<br>
-        LXDE<br>
-        MATE<br>
-        Cinnamon<br>
-        LXQt<br></p>
-    <p dir="rtl">
-        به طور پیش فرض GNOME نصب می شود. اما بعد از نصب تغییر دادن آن به سادگی نصب یک پکیج جدید است.
-        از بین این موارد، GNOME و Xfce پر کاربرد تر هستند.
-
-    </p>
-
-    <p>Gnome:<br>
-        <img alt="" src="https://raw.githubusercontent.com/MohsenDehghankar/os-hw1/gh-pages/images/gnome.png"/></p>
-    <p dir="rtl">
-        همانند ویندوز از ساختار پنجره ای استفاده می کند و محیطی برای explore‌کردن application ها دارد. قابلیت شخصی سازی
-        توسط tweak‌وجود دارد. از چند دسکتاپ همزمان پشتیبانی می کند (multiple workplace).<br>
-        از کلید های shortcut‌بسیاری برای تعامل و سریع انجام شدن کار ها پشتیبانی می کند (همانند Xfce و دسکتاپ های دیگر).
-    </p>
-
-    <p><img alt=""
-            src="https://raw.githubusercontent.com/MohsenDehghankar/os-hw1/gh-pages/images/Screenshot%20from%202019-07-29%2009-27-34.png"/>
-    </p>
-    <p>Xfce<br></p>
-    <p dir="rtl">
-        از ساختار پنجره ای برای مدیریت برنامه ها استفاده می کند. در بالا و چپ صفحه همانند start در ویندوز قابلیت دیدن
-        برنامه های سیستم را داریم.<br>
-        xfce سبک و سریع بوده و برای سیستم هایی که منابع سخت افزاری زیادی ندارند خیلی مناسب است.
-        بخش های مختلف آن عبارتند از (همانند GNOME) :
-
-    </p>
-
-    <p>file manager<br>
-        window manager<br>
-        panel of applications<br>
-        terminal<br>
-        calendar<br>
-        image viewer<br></p>
-    <p><img alt="" src="https://raw.githubusercontent.com/MohsenDehghankar/os-hw1/gh-pages/images/debian_7_xfce.png"/>
-    </p>
-    <p dir="rtl">
-        مدیر نمایش وظیفه این را دارد که کاربر را در ابتدا با یک صفحه لاگین رو به رو کند سپس بعد از احراز هویت، session
-        را شروع کند.<br>
-        به طور پیش فرض در دبین از مدیر نمایش GNOME display manager (gdm( استفاده می شود. (تصویر زیر)<br>
-        همچنین قابلیت پشتیبانی از مدیر نمایش های lxdm (برای LXDE) و KDE و xdm را دارد.
-
-    </p>
-    <p><img alt="" src="https://raw.githubusercontent.com/MohsenDehghankar/os-hw1/gh-pages/images/large.png"/></p>
-    <p dir="rtl">
-        از نظر من محیط GNOME در دبین خیلی مناسب و کاربر پسند است. زیرا اولا همانند ویندوز پیچیدگی زیادی برای کنترل کردن
-        و config کردن ندارد و برای هر برنامه در حال اجرا یک محیط fullscreen می گذارد. برای کسی که با shortcut ها رابطه
-        خوبی داشته باشد این دسکتاپ بهترین انتخاب است. زیرا اولا از تمام صفحه به شکلی مفید استفاده می شود. ثانیا با کلید
-        های میانبر می توان (بدون اشغال کردن صفحه) جا به جایی ها را انجام داد و برنامه ها را به جاهای مختلف صفحه منتقل
-        کرد.
-    </p>
-
-    <p dir="rtl">
-        برای کسی که سرعت بالا آمدن سیستم عامل و سرعت تغییر در صفحه برایش مهم است و منابع سخت افزاری خوبی ندارد و زیبایی
-        برایش اولویت نیست، Xfce مناسب است. زیرا هدف از این دسکتاپ صرفا کار راه انداختن است!
-    </p>
-
-    <p dir="rtl">
-        در GNOME‌می توان برای نوار ابزار بالای صفحه Extension هایی را اضافه نمود. همانند system monitoring که فکر می کنم
-        خیلی پر کاربرد است. (تاریخ و ساعت به طور پیشفرض در این نوار ابزار قرار دارد).
-
-    </p>
-
-    <h2 id="_6"><a name="install"></a>
-        <p dir="rtl" style="font-size: 20px"> نصاب</h2>
-    <p dir="rtl">
-        نصاب دبین :<br>
-        نام نصاب پایه :<br>
-        calamares-installer<br>
-    </p>
-
-    <p dir="rtl">
-        میزان تغییرات : <br>
-        از طریق ایمیل با debian-boot@lists.debian.org در ارتباط و منتظر پاسخ ایشان برای تکمیل این بخش هستم.
-    </p>
-
-    <p dir="rtl">
-        تعداد گام مورد نیاز برای نصب:<br>
-        گام های تعاملی با کاربر:<br>
-
-    </p>
-
-    <p dir="rtl">
-    <ol dir="rtl">
-        <li> Boot و راه اندازی installer و انتخاب روش نصب مورد نظر از منوی اصلی
-        <li> انتخاب زبان
-        <li> انتخاب کشور
-        <li> انتخاب صفحه کلید
-        <li> کانفیگ شبکه
-        <li> نام کاربری و رمز مدیر و کاربر
-        <li> جزء بندی دیسک
-        <li> نصب
-        <li>کانفیگ مدیر بسته
-        <li> انتخاب بسته هایی از جمله محیط میزکار برای نصب (Debian desktop Environment)
-            نیاز دارد.
-        <li>نصب GRUB Bootloader
-        <li> پایان و راه اندازی مجدد
-    </ol>
-    </p>
-
-    <p dir="rtl">
-        در این میان چند گام که به طور خودکار انجام می شوند و کاربر دخالتی در آن ها ندارد نیز وجود دارند از جمله : کانفیگ
-        ساعت
-    </p>
-
-    <p dir="rtl">
-        برگرفته از :<br>
-        <a href="https://www.debian.org/doc/manuals/debian-handbook/sect.installation-steps.tr.html">https://www.debian.org/doc/manuals/debian-handbook/sect.installation-steps.tr.html</a>
-    </p>
-
-    <p dir="rtl">
-        پیچیدگی گام ها :<br>
-        تمامی مراحل ساده هستند و هیچ کدام پیچیدگی خاصی ندارند . اغلب به صورت yes/no و یا انتخاب بدیهیات مانند زبان و
-        غیره است .
-    </p>
-
-    <p dir="rtl">
-        نیازمندی اتصال به اینترنت:<br>
-        برای نصب بسته های جانبی به هنگام نصب مفید است ولی اختیاری است .(Optional)
-
-    </p>
-
-    <p dir="rtl">
-        کار در دو حالت legacy bios و UEFI:<br>
-        در هر دو حالت کار میکند .
-
-    </p>
-
-    <p>
-        <a href="https://wiki.debian.org/UEFI#:~:text=Since%20Debian%20Jessie%20(8.0)%2C,mode%2C%20just%20like%20on%20amd64.">https://wiki.debian.org/UEFI#:~:text=Since%20Debian%20Jessie%20(8.0)%2C,mode%2C%20just%20like%20on%20amd64</a><br>
-        <a href="https://wiki.debian.org/UEFI#:~:text=Debian%20supports%20UEFI%20Secure%20Boot,create%20for%20these%20three%20platforms">https://wiki.debian.org/UEFI#:~:text=Debian%20supports%20UEFI%20Secure%20Boot,create%20for%20these%20three%20platforms</a>
-    </p>
-    <h2 id="_7"><a name="security"></a>
-        <p dir="rtl" style="font-size: 20px"> امنیت</h2>
-    <p dir="rtl">
-        کنترل دسترسی:<br>
-        کنترل دسترسی در دبین مانند اکثر توزیع های لینوکس به صورت DAC‌ ( Discretionary access control) انجام می شود. (به
-        طور پیش فرض)
-
-    </p>
-
-    <p dir="rtl">
-        در این نوع از کنترل دسترسی هر کاربر وظیفه تعیین دسترسی ها را به فایل و یا دایرکتوری های تولید شده توسط خودش
-        دارد. این دسترسی های شامل سه نوع دسترسی خواندن ، نوشتن و اجرا کردن است (read, write, execute).<br>
-        مثلا با استفاده از دستور ls -l میتوانیم این دسترسی ها را برای کاربر، گروهی که کاربر در آن و بقیه است ببینیم:
-    </p>
-
-    <p><img alt="" src="https://raw.githubusercontent.com/MohsenDehghankar/os-hw1/gh-pages/images/access.png"/></p>
-    <p dir="rtl">
-        تغییر این دسترسی ها توسط owner‌ فایل یا دایرکتوری با دستور chmod انجام می شود.
-    </p>
-
-    <p dir="rtl">
-        نوع دیگر کنترل دسترسی که در مقابل DAC قرار می گیرد، MAC یا mandatory access control است.
-        در این نوع کنترل دسترسی، یک کاربر ادمین دسترسی را برای همه کاربران و گروه ها تعیین می کند و دیگر اینگونه نیست که
-        هرکسی بتواند برای فایل خودش و به سلیقه خودش دسترسی بدهد.
-    </p>
-
-    <p dir="rtl">
-        پیاده سازی این نوع دسترسی در لینوکس با Selinux که یک پروژه مربوط به NSA است انجام شده است و در دبین به طور پیش
-        فرض غیر فعال )disabled است.
-    </p>
-
-    <p dir="rtl">
-        می توان آن را فعال کرد و دسترسی ها را تعیین نمود. در صورت فعال شدن، اولویت این کنترل دسترسی از DAC‌که پیشفرض
-        است، بیشتر خواهد بود.
-    </p>
-
-    <p><a href="https://wiki.debian.org/SELinux">https://wiki.debian.org/SELinux</a></p>
-    <p dir="rtl">
-        همچنین AppArmor نیز MAc را در دبین پیاده سازی می کند که به ظور پیش فرض وجود دارد اما فعال نیست.<br>
-
-        در دبین از فایروال iptables‌برای کنترل پورت های باز استفاده می شود. (به طور پیش فرض).
-
-    </p>
-
-    <p dir="rtl">
-        احراز هویت:<br>
-        به طور پیش فرض در سیستم های UNIX و از جمله آن ها دبین، احراز هویت توسط pam_unix‌انجام می شود. (pluggable
-        authentication module) که فایل های کانفیگ آن در این آدرس های قرار دارد:
-
-    </p>
-
-    <p>
-        /etc/passwd -rw-r--r--
-        user account information
-        /etc/shadow -rw-r-----
-        secure user account information
-        /etc/group -rw-r--r--
-        group information
-    </p>
-
-    <p dir="rtl">
-        در فایل passwd این enrty‌ها وجود دارد
-
-    </p>
-
-    <p> user1:x:1000:1000:User1 Name,,,:/home/user1:/bin/bash </p>
-
-    <p dir="rtl">
-        که نام کاربر و پسورد رمز شده آن و گروه کاربر و .. معین می شوند.<br>
-        این فایل به کمک فایل shadow‌برای authentication استفاده می شود.
-
-    </p>
-
-    <p dir="rtl">در فایل shadow این entry ها موجودند
-    </p>
-
-    <p>user1:$1$Xop0FYH9$IfxyQwBe9b8tiyIkt2P4F/:13262:0:99999:7:::
-    </p>
-
-    <p dir="rtl">
-        که نام کاربر و پسورد رمز شده و تاریخ آخرین تغییر پسورد توسط کاربر و مدت زمانی که کاربر باید منتظر بماند تا مجددا
-        بتواند پسوردش را تغییر دهد و … وجود دارد.<br>
-        برای تغییر پسورد و بطور کلی مدیری auth می توان از دستورات زیر استفاده کرد:
-
-    </p>
-
-    <p>
-        passwd<br>
-        chage<br>
-        …
-
-    </p>
-
-    <p dir="rtl">
-        رمزنگاری:<br>
-        در سیستم عامل های لینوکس از ابزارهایی نظیر gnupg می توان برای رمز کردن فایل ها استفاد کرد.
-        که با دستور gpg‌شناخته و استفاده می شود. به طور پیشفرض این ابزار در دبین وجود دارد و می توان با آن فایل ها و
-        دایرکتوری ها را به طور متقارن رمز کرد.
-
-    </p>
-
-    <p dir="rtl">
-        همگام سازی:<br>
-        در دبین به طور پیش فرض برای همگام سازی اکانت ها و خدمات ابری در settings بخش Online Accounts وجود دارد.
-
-    </p>
-
-    <p><img alt="" src="https://raw.githubusercontent.com/MohsenDehghankar/os-hw1/gh-pages/images/account.png"/></p>
-    <p dir="rtl">
-        برای همگام سازی فایل ها ابزاری تحت عنوان unison وجود دارد. که به طور پیش فرض نصب نیست. با این ابزار می توان حتی
-        فایل های دو سیستم مجزا را از طريق ssh همگام کرد. همچنین دو دایرکتوری لوکال.
-    </p>
-
-    <p dir="rtl">
-        در مورد authentication با اثر انگشت ، می توان ابزار هایی نظیر
-    </p>
-
-    <p>
-        fprintd, libpam-fprintd fprint-demo. <br>
-        biometric-utils
-    </p>
-
-    <p dir="rtl">
-        را نصب کرد. که این کار را برای دستگاه های این لیست پیاده سازی کرده اند:
-    </p>
-
-    <p><a href="https://www.freedesktop.org/wiki/Software/fprint/libfprint/">https://www.freedesktop.org/wiki/Software/fprint/libfprint/</a>
-    </p>
-    <h3 id="_8"><p dir="rtl"> ارزیابی بسته ها </p></h3>
-    <p><a href="https://debian-handbook.info/browse/stable/sect.package-authentication.html">https://debian-handbook.info/browse/stable/sect.package-authentication.html</a>
-    </p>
-    <p dir="rtl">
-        در فرایند نصب بسته ها و ابزار ها، امنیت بسیار مهم است. باید مطمین باشیم که بسته ای که داریم نصب می کنیم معتبر
-        است و از mirror های دبین آمده است و در بین راه از طریق شبکه دستکاری نشده اند و یا حتی خراب نشده اند.
-        برای از کاهش این ریسک، دبین سازوکاری را دارد که در حین نصب پکیج، مشخص می کند که این پکیج همان پکیجی است که از
-        maintainer تولید شده است و دچار تغییر نشده است.
-
-    </p>
-
-    <p dir="rtl">
-        این کار توسط مجموعه ای از الگوریتم های رمز نگاری و hash اتفاق می افتد ( signature ).
-    </p>
-
-    <p dir="rtl">
-        برای هر mirror، یک فایل InRelease وجود دارد که در آن یک فایل signed وجود دارد. همچنین فایل دبگری تحت عنوان
-        Release وجود دارد. هر دو این لیستی از پکیج های این mirror‌را نگه داری می کنند به همراه hash آن ها که تغییر در آن
-        ها قابل تشخیص باشد.
-    </p>
-
-    <p dir="rtl">
-        در Release‌بر خلاف InRelsea فایل signature ( Rease.gpg به صورت جدا قرار دارد.
-    </p>
-
-    <p dir="rtl">
-        برنامه apt که وظیفه مدیریت بسته ها را برعهده دارد مجموعه از کلید های gnupg را نگه داری می کند که با استفاده از
-        آن ها می توان signature ها را verify کرد. این کلید ها در
-    </p>
-
-    <p>
-        /etc/apt/trusted.gpg.d/
-        /etc/apt/trusted.gpg
-    </p>
-
-    <p dir="rtl">
-        ذخیره شده اند و با دستور apt-key fingerprints قابل مشاهده هستند.
-    </p>
-
-    <p dir="rtl">
-
-        کلید های رسمی دبین در این فایل ها توسط debian-archive-keyring مدیریت و آپدیت می شوند.<br>
-
-        در دبین راه حل مستقیمی برای کنترل دسترسی میکروفون و وب کم وجود ندارد (البته برنامه هایی که در حال استفاده هستند
-        را می توان دید). این کنترل ها معمولا در سطح بالاتر در اپلیکیشن ها انجام می شوند. (مثلا کروم).
-
-    </p>
-
-    <h2 id="_9"><a name="build"></a>
-        <p dir="rtl" style="font-size: 20px"> ساخت توزیع</h2>
-    <p dir="rtl">
-        من آخرین نسخه stable توزیع دبیان را نصب کردم.<br>
-        به کمک دستور uname -a متوجه شدیم که kernel ما نسخه 4.19.0 است.<br>
-        برای کامپایل کردن کرنل لینوکس، علاوه بر سورس کد آن، به چندین پکیج دیگر نیز نیاز داریم که با دستور زیر نصب می
-        شوند.<br>
-        sudo apt-get install build-essential linux-source bc kmod cpio flex cpio libncurses5-dev<br>
-        فایل کانفیگ فعلی نیز در آدرس زیر است:<br>
-        /boot/config-*<br>
-        برای کامپایل کرنل میتوانیم از همان کانفیگ قبلی استفاده کنیم و یا اینکه کانفیگ های خودمان را طراحی کنیم.<br>
-
-    </p>
-
-    <p>
-        <pp dir="rtl">
-            همچنین دستور زیر یک فایل کانفیگ استاندارد برای معماری خواسته شده می‌سازد:<br>
-    </p>
-    </p>
-    <pre>
-make ARCH=i386 defconfig</pre>
-
-    <p dir="rtl">
-        دستور زیر یک کانفیگ اختصاصی با توجه به ماژول های لود شده فعلی می‌سازد:<br>
-    </p>
-
-    <pre>
-make localmodconfig</pre>
-
-    <p dir="rtl">
-        پس از ساخت فایل کانفیگ مراحل کامپایل کرنل شروع می‌شود که در زیر به صورت خیلی خلاصه آمده است:<br>
-    </p>
-
-    <pre style="color: #ccc;">
-make -j8 -> compile using 8 cores
-make_modules_install -> install the modules
-set a new kernel … -> vmlinuz-YourKernelName
-set init ram fs -> initramfs-YourKernelName
-set system.map -> System.map-YourKernelName
-System map kernel symlink
-configure the grub</pre>
-
-    <h2 id="_10"><a name="doc"></a>
-        <p dir="rtl" style="font-size: 20px"> مستندات</h2>
-    <p>Ali </p>
-
-    <br>
-
-
-    <div class="row wm-article-nav-buttons" role="navigation" aria-label="navigation">
-
-        <div class="wm-article-nav pull-right">
-            <a href="../mabox/" class="btn btn-xs btn-default pull-right">
-                Next
-                <i class="fa fa-chevron-right" aria-hidden="true"></i>
-            </a>
-            <a href="../mabox/" class="btn btn-xs btn-link">
-                Mabox
-            </a>
-        </div>
-
-        <div class="wm-article-nav">
-            <a href=".." class="btn btn-xs btn-default pull-left">
-                <i class="fa fa-chevron-left" aria-hidden="true"></i>
-                Previous</a><a href=".." class="btn btn-xs btn-link">
-            Home
-        </a>
-        </div>
+<h2 id="_1"><a name="general"></a> <p dir="rtl" style="font-size: 20px"> اطلاعات کلی</h2>
+<p dir="rtl">
+debian یک توزیع گنو لینوکسی است که کاملا رایگان و متن باز است و توسط انجمن The Debian Project توسعه داده می شود. این انجمن توسط lan Murdock در آگوست 1993 تاسیس شد. اولین نسخه debian در سپتامبر 1993 منتشر شد. اولین نسخه پایدار آن در 17 ژانویه 1996 منتشر شد. (Buzz).
+این توزیع برای کامپیوتر های شخصی و سرور ها کاربرد دارد. همچنین debina‌پایه بعضی از توزیع های دیگر از جمله ubuntu است.
+</p>
+
+<p dir="rtl">
+پروژه دبین توسط افراد داوطلب در اکثر نقاط جهان توسعه داده می شود و توسط Debina Project Leader رهبری می شود. 
+از سال 1994 دبین توسط سازمان free software foundation حمایت می شد. بعد از اتمام این حمایت، debina project‌سازمان non profit ای تحت عنوان Software in the public interes (SPI) را تاسیس کرد که برای حمایت از برنامه های open source تاسیس شد.
+</p>
+
+<p dir="rtl">
+Ian Murdock اولین لیدر debian project به مدت ۳ سال بوده است. او یک مهندس نرم افزار آمریکایی بوده است و نام debian را از اول نام خود و همسرش Debra Lynn برگزید.
+در حال حاضر لیدر این پروژه Jonathan Carter که اهل آفریقای جنوبی است.
+</p>
+
+<p><a href="https://jonathancarter.org/about/">https://jonathancarter.org/about/</a></p>
+<p dir="rtl">
+آخرین انتشار این توزیع مربوط به سپتامبر 2020 و نسخه 10.6 است. 
+لیست تمام debian developer ها که حدود 1000 نفر هستند در این لیست آمده است:
+</p>
+
+<p><a href="https://nm.debian.org/public/people/dd_all/">https://nm.debian.org/public/people/dd_all/</a></p>
+<p dir="rtl">
+در این شکل توزیع ملیت توسعه دهندگان مشاهده می شود:
+</p>
+
+<p><img alt="location" src="https://raw.githubusercontent.com/MohsenDehghankar/os-hw1/gh-pages/images/location.png" /></p>
+<p dir="rtl">
+لیست تمامی نسخه های منتشر شده در این شکل آمده است.
+نام این توزیع ها از شخصیت های Toy Story 1995 انتخاب می شوند.
+</p>
+
+<p><img alt="" src="https://raw.githubusercontent.com/MohsenDehghankar/os-hw1/gh-pages/images/releases.png" /></p>
+<p dir="rtl">
+در حال حاضر این برنچ ها در توسعه این توزیع فعال هستند:
+</p>
+
+<p>
+<ul>
+<li>oldstable - The previous stable release (Stretch).</li>
+<li>stable - The current stable release (Buster).</li>
+<li>testing - The next generation release (Bullseye).</li>
+<li>unstable - The unstable development release (Sid), where new or updated packages are introduced</li>
+</ul>
+</p>
+
+<p><img alt="" src="https://raw.githubusercontent.com/MohsenDehghankar/os-hw1/gh-pages/images/chart.png" /></p>
+<p dir="rtl">
+لوگو توزیع:
+</p>
+
+<p><img alt="" src="https://raw.githubusercontent.com/MohsenDehghankar/os-hw1/gh-pages/images/Debian_logo.png" /></p>
+<p dir="rtl">
+ویدیو زیر plymouth های debian را نشان می دهد که به طور پیش فرض فعال نیستند:
+</p>
+
+<p><a href="https://www.youtube.com/watch?v=N7iGvHMvd4Q">https://www.youtube.com/watch?v=N7iGvHMvd4Q</a></p>
+<h2 id="_2"><a name="hardware"></a> <p dir="rtl" style="font-size: 20px"> مشخصات سخت افزار</h2>
+<p>
+Supported architectures:
+<ul>
+<li>64-bit PC (amd64)</li>
+<li>64-bit ARM (AArch64)</li>
+<li>EABI ARM (armel)</li>
+<li>Hard Float ABI ARM (armhf)</li>
+<li>32-bit PC (i386)</li>
+<li>MIPS (big endian)</li>
+<li>MIPS (little endian)</li>
+<li>64-bit MIPS (little endian)</li>
+<li>POWER Processors</li>
+<li>IBM System z</li>
+</ul>
+
+Recommended System Requirements (amd64):
+<ul>
+<li>A Pentium 4, 1GHz system</li>
+<li>RAM:
+<ul>
+<li>No desktop: 512 megabytes</li>
+<li>With Desktop: 1 gigabyte</li>
+</ul>
+</li>
+<li>
+Hard Drive:
+<ul>
+<li>No desktop: 2 gigabytes</li>
+<li>With Desktop: 10 gigabytes</li>
+</li>
+</ul>
+</ul>
+</p>
+
+<p dir="rtl">
+محدودیت حافظه گرافیکی بستگی به محیط گرافیکی انتخابی ما دارد. اما به شخصه روی VM با حافظه گرافیکی 16MB نصب کردم و مشکلی نداشت.
+نسخه هایی از دبیان قابلیت پشتیبانی از PAE را دارند.و<br>
+کرنل لینوکس از NX bit بر روی پردازنده هایی که این ویژگی را دارند، پشتیبانی می‌کند.<br>
+
+</p>
+
+<p dir="rtl">
+شناسایی وب کم و کارت شبکه و … بستگی به سخت افزار دارد. اگر درایور های سخت افزار ما در کرنل لینوکس باشند، پشتیبانی می‌کند.
+درباره پشتیبانی از کارت گرافیک نیز همان مسئله قبلی برقرار است. برای کارت های گرافیک مختلف هم درایور های open source وجود دارد و هم ابزار های proprietary.
+</p>
+
+<h2 id="_3"><a name="package"></a> <p dir="rtl" style="font-size: 20px"> مدیریت بسته</h2>
+<p dir="rtl">
+مدیریت بسته سیستم عامل دبین :<br>
+نام مدیر بسته: <br>
+این سیستم عامل چند مدیر بسته دارد که عبارتند از : dpkg , apt مدیر بسته ی dpkg (debian package manager) قابلیت نصب و حذف بسته ها را دارد ولی بیشتر از این خدمتی ارائه نمی کند. برای مثال اگر بسته ای که میخواهید نصب کنید نیازمند بسته ی دیگری که باید از پیش نصب شده باشد، باید آن بسته را به طور دستی نصب کنید . 
+
+</p>
+<p dir="rtl">
+مدیر بسته ی apt لیستی از بسته های قابل بارگیری دارد و از آن لیست برای پیدا کردن بسته هایی که نیاز به ارتقاء دارند استفاده می شود .به هنگام استفاده از apt ، این مدیر بسته برای نصب و پاک کردن بسته ها dpkg را فراخوانی می کند اما   مزیت آن نسبت به dpkg این است  که این مدیر بسته قادر است به طور اتوماتیک مشکلات وابستگی بسته ها (packet dependencies) را حل کند .
+</p>
+
+<p><a href="https://wiki.debian.org/SourcesList"><p dir="rtl">لیست بسته های apt</p></a></p>
+<p dir="rtl">
+به مدیر بسته ی dpkg اصطلاحا ابزار سطح پایین (low-level tool) و به مدیر بسته ی apt ابزار سطح بالا (high-level tool) نیز گفته می شود . 
+<br>
+در کنار این دو شایان ذکر است نامی از واسط مبتنی بر متن aptitude ببریم که به کاربر این اجازه را می دهد که لیست بسته ها را مشاهده کند و مدیریت لازم برای نصب و حذف و ارتقاء بسته ها را به عمل بیاورد . 
+</p>
+
+<p><img alt="" src="https://raw.githubusercontent.com/MohsenDehghankar/os-hw1/gh-pages/images/dpkg.png" /></p>
+<p dir="rtl">
+بسته های وصله زده شده : <br>
+لیست نمونه ای از بسته های وصله زده شده (patches) در لینک زیر موجود است .<br>
+</p>
+
+<p><a href="https://sources.debian.org/patches/list/1/">https://sources.debian.org/patches/list/1/</a></p>
+<p dir="rtl">
+به طور کلی برای دیدن تمامی patch ها می توان از فرمت زیر استفاده کرد .
+</p>
+<p><a href="https://sources.debian.org/patches/list/#number/">https://sources.debian.org/patches/list/#number/</a></p>
+<p dir="rtl">
+از طریق فرمت زیر می توان به توضیح تغییرات اعمال شده از طریق patch در ورژن خاصی از بسته ی خاصی دست پیدا کرد.
+</p>
+<p><a href="https://sources.debian.org/patches/packagename/version/">https://sources.debian.org/patches/packagename/version/</a></p>
+<p dir="rtl">
+مثال :<br>
+<a href='https://sources.debian.org/patches/jython/2.7.2+repack1-3/'>https://sources.debian.org/patches/jython/2.7.2+repack1-3/</a><br>
+از طریق لینک زیر می توان بسته ی مورد نظر را از طریق نام و یا پسوند آن جستجو کرد .<br>
+<a href="https://sources.debian.org/patches/">https://sources.debian.org/patches/</a>
+</p>
+
+<p dir="rtl">
+شایان ذکر است Patch system استفاده شده توسط دبین Quilt می باشد که مناسب ایجاد patch بر روی هر سایزی از پایگاه کد است. <br><br>
+
+دارای مخزن اختصاصی:<br>
+دارای مخازن اختصاصی است که لینک های آن ها در قسمت لیست مخازن استفاده شده قرار داده شده است.<br>
+
+مخزن آینه:<br>
+دبیان در سراسر دنیا در سرور های مختلفی توزیع شده است تا به کاربران امکان دسترسی بهتری به آرشیو ها بدهد . استفاده از سرور نزدیک برای کاربر احتمالا سرعت دانلود بیشتری را فراهم می آورد و همچنین لود روی سرور های مرکزی را کاهش می دهد . مخازن آینه ی دبیان میتوانند اولیه (primary ) و یا ثانویه (secondary) باشند .
+<br>
+
+ مخازن آینه ی اولیه به طور مستقیم با شبکه ی داخلی دبین سینک می شوند و  احتمالا پهنای باند بهتری نسبت به ثانویه ها دارند و معمولا دارای تمامی معماری ها هستند . ولی مخازن ثانویه ممکن است محدودیت هایی داشته باشند .
+<br><br>
+
+لیستی از مخازن آینه ی بسته های دبیان:<br>
+https://www.debian.org/mirror/list<br>
+لیستی از مخازن آینه ی CD images :<br>
+https://www.debian.org/CD/http-ftp/#mirrors<br>
+لیستی از مخازن آینه ی ورژن های قدیمی دبیان :<br>
+https://www.debian.org/distrib/archive<br>
+لینک زیر مخزن آینه ی دبیان در یکی از دیتا سنتر های ایرانی است.<br>
+http://mirror.aminidc.com/debian/<br>
+
+</p>
+
+<p dir="rtl">
+بسته های استفاده شده :<br>
+نسخه ی پخش شده ی پایدار فعلی دبیان (stable release) که buster نام دارد بسته های متفاوتی را شامل می شود که در بخش های مختلف از جمله ویرایشگر ها، کتابخانه ها، وب سرور ها، شبکه، پردازش متن، صداو … دسته بندی شده اند .
+<br>
+
+لیستی از دسته بندی و انواع بسته های استفاده شده در لینک زیر موجود است .<br>
+https://packages.debian.org/stable/<br>
+جهت مشاهده ی دسته بندی بسته های استفاده در ورژن های قدیمی تر از فرمت زیر استفاده کنید .<br>
+https://packages.debian.org/oldReleaseName/<br>
+https://packages.debian.org/jessie<br>
+برای مشاهده ی بسته های درون هر بخش از فرمت زیر استفاده کنید .<br>
+https://packages.debian.org/stable/subsectionName/<br>
+و با کلیک بر روی هر بسته میتوانید جزیات مربوط به آن از جمله اینکه آن بسته چه کاری انجام می دهد و بسته های مرتبط با آن را ببینید.<br>
+لیست تمامی بسته ها :<br>
+<a href="https://packages.debian.org/stable/allpackages">https://packages.debian.org/stable/allpackages</a><br>
+<a href="https://packages.debian.org/stable/allpackages?format=txt.gz">https://packages.debian.org/stable/allpackages?format=txt.gz</a><br>
+<a href="http://ftp.acc.umu.se/debian/pool/main/">http://ftp.acc.umu.se/debian/pool/main</a><br>
+
+</p>
+
+<p dir="rtl">
+لیست مخازن استفاده شده :<br>
+مخزن رسمی دبیان :<br>
+<a href="http://ftp.debian.org/debian/">http://ftp.debian.org/debian</a><br>
+<a href ="http://security.debian.org/debian-security/">http://security.debian.org/debian-security</a><br>
+
+</p>
+
+<p><img alt="" src="https://raw.githubusercontent.com/MohsenDehghankar/os-hw1/gh-pages/images/packages.png" /></p>
+<p dir="rtl">
+وجود مخازن سورس:<br>
+با توجه به تصویر بالا <br>
+<a href="http://ftp.debian.org/debian/">http://ftp.debian.org/debian/</a><br>
+
+وجود مخازن امنیت:<br>
+با توجه به تصویر بالا <br>
+<a href="http://security.debian.org/debian-security/">http://security.debian.org/debian-security/</a><br>
+
+</p>
+
+<h2 id="_4"><a name="file"></a> <p dir="rtl" style="font-size: 20px"> مدیر فایل</h2>
+<p dir="rtl">
+دبیان به صورت پیش فرض از dolphin استفاده میکند.<br>
+قابلیت تغییر نام همزمان چند فایل را دارد.<br>
+قابلیت دسترسی به فایل های تحت شبکه را دارد.<br>
+قابلیت پیش نمایش فایل ها را دارد.<br>
+امکان split کردن دارد.<br>
+قابلیت استفاده از چند تب را دارد.<br>
+از utf8 پشتیبانی می‌کند.<br>
+پشتیبانی باز شدن در حالت root را دارد.<br>
+میزان حافظه خالی را نشان می‌دهد.<br>
+وضعیت و سرعت انتقال داده را نشان می‌دهد.<br>
+امکانات سفارشی سازی بسیار گسترده ای دارد.<br>
+درباره امکان dvd write  در اینترنت مطلبی پیدا نکردم. خودم نیز در محیط آن چیزی پیدا نکردم.<br>
+می توان قابلیت نمایش checksum را نیز به آن اضافه کرد.<br>
+قابلیت write کردن را در خودش ندارد اما با کمک K3B می تواند.<br>
+یه صورت پیش‌فرض از bookmark پشتیبانی نمی‌کند اما به راحتی می‌توان همان هدف را با ابزار های دیگرش پیاده کرد.<br>
+</p>
+
+<p><img alt="" src="https://raw.githubusercontent.com/MohsenDehghankar/os-hw1/gh-pages/images/filemanager.png" /></p>
+<h2 id="_5"><a name="desktop"></a> <p dir="rtl" style="font-size: 20px"> میزکار</h2>
+<p dir="rtl">
+محیط دسکتاپ در دبین می توانید از بین گزینه های زیر در موقع نصب انتخاب شود:
+
+</p>
+
+<p>GNOME<br>
+Plasma<br>
+Xfce<br>
+LXDE<br>
+MATE<br>
+Cinnamon<br>
+LXQt<br></p>
+<p dir="rtl">
+به طور پیش فرض GNOME نصب می شود. اما بعد از نصب تغییر دادن آن به سادگی نصب یک پکیج جدید است.
+از بین این موارد، GNOME و  Xfce پر کاربرد تر هستند.
+
+</p>
+
+<p>Gnome:<br>
+<img alt="" src="https://raw.githubusercontent.com/MohsenDehghankar/os-hw1/gh-pages/images/gnome.png" /></p>
+<p dir="rtl">
+همانند ویندوز از ساختار پنجره ای استفاده می کند و محیطی برای explore‌کردن application ها دارد. قابلیت شخصی سازی توسط tweak‌وجود دارد. از چند دسکتاپ همزمان پشتیبانی می کند (multiple workplace).<br>
+از کلید های shortcut‌بسیاری برای تعامل و سریع انجام شدن کار ها پشتیبانی می کند (همانند Xfce و دسکتاپ های دیگر).
+</p>
+
+<p><img alt="" src="https://raw.githubusercontent.com/MohsenDehghankar/os-hw1/gh-pages/images/Screenshot%20from%202019-07-29%2009-27-34.png" /></p>
+<p>Xfce<br></p>
+<p dir="rtl">
+از ساختار پنجره ای برای مدیریت برنامه ها استفاده می کند. در بالا و چپ صفحه همانند start در ویندوز قابلیت دیدن برنامه های سیستم را داریم.<br>
+xfce سبک و سریع بوده و برای سیستم هایی که منابع سخت افزاری زیادی ندارند خیلی مناسب است.
+بخش های مختلف آن عبارتند از (همانند GNOME) : 
+
+</p>
+
+<p>file manager<br>
+window manager<br>
+panel of applications<br>
+terminal<br>
+calendar<br>
+image viewer<br></p>
+<p><img alt="" src="https://raw.githubusercontent.com/MohsenDehghankar/os-hw1/gh-pages/images/debian_7_xfce.png" /></p>
+<p dir="rtl">
+مدیر نمایش وظیفه این را دارد که کاربر را در ابتدا با یک صفحه لاگین رو به رو کند سپس بعد از احراز هویت، session را شروع کند.<br>
+به طور پیش فرض در دبین از مدیر نمایش GNOME display manager (gdm( استفاده می شود. (تصویر زیر)<br>
+همچنین قابلیت پشتیبانی از مدیر نمایش های lxdm (برای LXDE) و KDE و xdm را دارد.
+
+</p>
+<p><img alt="" src="https://raw.githubusercontent.com/MohsenDehghankar/os-hw1/gh-pages/images/large.png" /></p>
+<p dir="rtl">
+از نظر من محیط GNOME در دبین خیلی مناسب و کاربر پسند است. زیرا اولا همانند ویندوز پیچیدگی زیادی برای کنترل کردن و config کردن ندارد و برای هر برنامه در حال اجرا یک محیط fullscreen می گذارد. برای کسی که با shortcut ها رابطه خوبی داشته باشد این دسکتاپ بهترین انتخاب است. زیرا اولا از تمام صفحه به شکلی مفید استفاده می شود. ثانیا با کلید های میانبر می توان (بدون اشغال کردن صفحه) جا به جایی ها را انجام داد و برنامه ها را به جاهای مختلف صفحه منتقل کرد.
+</p>
+
+<p dir="rtl">
+برای کسی که سرعت بالا آمدن سیستم عامل و سرعت تغییر در صفحه برایش مهم است و منابع سخت افزاری خوبی ندارد و زیبایی برایش اولویت نیست، Xfce مناسب است. زیرا هدف از این دسکتاپ صرفا کار راه انداختن است!
+</p>
+
+<p dir="rtl">
+در GNOME‌می توان برای نوار ابزار بالای صفحه Extension  هایی را اضافه نمود. همانند system monitoring  که فکر می کنم خیلی پر کاربرد است. (تاریخ و ساعت به طور پیشفرض در این نوار ابزار قرار دارد).
+
+</p>
+
+<h2 id="_6"><a name="install"></a> <p dir="rtl" style="font-size: 20px"> نصاب</h2>
+<p dir="rtl">
+نصاب دبین :<br>
+نام نصاب پایه :<br>
+ calamares-installer<br>
+</p>
+
+<p dir="rtl">
+میزان تغییرات : <br>
+از طریق ایمیل با debian-boot@lists.debian.org در ارتباط و منتظر پاسخ ایشان برای تکمیل این بخش هستم.
+</p>
+
+<p dir="rtl">
+تعداد گام مورد نیاز برای نصب:<br>
+گام های تعاملی با کاربر:<br>
+
+</p>
+
+<p dir="rtl">
+<ol dir="rtl">
+<li> Boot و راه اندازی installer  و انتخاب روش نصب مورد نظر از منوی اصلی
+<li> انتخاب زبان
+<li> انتخاب کشور
+<li> انتخاب صفحه کلید
+<li> کانفیگ شبکه
+<li> نام کاربری و رمز مدیر و کاربر
+<li> جزء بندی دیسک
+<li> نصب
+<li>کانفیگ مدیر بسته
+<li> انتخاب بسته هایی از جمله محیط میزکار برای نصب (Debian desktop Environment)
+نیاز دارد.
+<li>نصب  GRUB Bootloader
+<li> پایان و راه اندازی مجدد
+</ol>
+</p>
+
+<p dir="rtl">
+در این میان چند گام که به طور خودکار انجام می شوند و کاربر دخالتی در آن ها ندارد نیز وجود دارند از جمله : کانفیگ ساعت
+</p>
+
+<p dir="rtl">
+برگرفته از :<br>
+<a href="https://www.debian.org/doc/manuals/debian-handbook/sect.installation-steps.tr.html">https://www.debian.org/doc/manuals/debian-handbook/sect.installation-steps.tr.html</a>
+</p>
+
+<p dir="rtl">
+پیچیدگی گام ها :<br>
+تمامی مراحل ساده هستند و هیچ کدام پیچیدگی خاصی ندارند . اغلب به صورت yes/no و یا انتخاب بدیهیات مانند زبان و غیره است .
+</p>
+
+<p dir="rtl">
+نیازمندی اتصال به اینترنت:<br>
+برای نصب بسته های جانبی به هنگام نصب مفید است ولی اختیاری است .(Optional)
+
+</p>
+
+<p dir="rtl">
+کار در دو حالت legacy bios و UEFI:<br>
+در هر دو حالت کار میکند . 
+
+</p>
+
+<p><a href="https://wiki.debian.org/UEFI#:~:text=Since%20Debian%20Jessie%20(8.0)%2C,mode%2C%20just%20like%20on%20amd64.">https://wiki.debian.org/UEFI#:~:text=Since%20Debian%20Jessie%20(8.0)%2C,mode%2C%20just%20like%20on%20amd64</a><br>
+<a href="https://wiki.debian.org/UEFI#:~:text=Debian%20supports%20UEFI%20Secure%20Boot,create%20for%20these%20three%20platforms">https://wiki.debian.org/UEFI#:~:text=Debian%20supports%20UEFI%20Secure%20Boot,create%20for%20these%20three%20platforms</a></p>
+<h2 id="_7"><a name="security"></a> <p dir="rtl" style="font-size: 20px"> امنیت</h2>
+<p dir="rtl">
+کنترل دسترسی:<br>
+کنترل دسترسی در دبین مانند اکثر توزیع های لینوکس به صورت DAC‌ ( Discretionary access control) انجام می شود. (به طور پیش فرض)
+
+</p>
+
+<p dir="rtl">
+در این نوع از کنترل دسترسی هر کاربر وظیفه تعیین دسترسی ها را به فایل و یا دایرکتوری های تولید شده توسط خودش دارد. این دسترسی های شامل سه نوع دسترسی خواندن ، نوشتن و اجرا کردن است (read, write, execute).<br>
+مثلا با استفاده از دستور ls -l میتوانیم     این دسترسی ها را برای کاربر، گروهی که کاربر در آن و بقیه است ببینیم:
+</p>
+
+<p><img alt="" src="https://raw.githubusercontent.com/MohsenDehghankar/os-hw1/gh-pages/images/access.png" /></p>
+<p dir="rtl">
+تغییر این دسترسی ها توسط owner‌ فایل یا دایرکتوری با دستور chmod انجام می شود.
+</p>
+
+<p dir="rtl">
+نوع دیگر کنترل دسترسی که در مقابل DAC قرار می گیرد، MAC یا mandatory access control  است.
+در این نوع کنترل دسترسی، یک کاربر ادمین دسترسی را برای همه کاربران و گروه ها تعیین می کند و دیگر اینگونه نیست که هرکسی بتواند برای فایل خودش و به سلیقه خودش دسترسی بدهد.
+</p>
+
+<p dir="rtl">
+پیاده سازی این نوع دسترسی در لینوکس با Selinux که یک پروژه مربوط به NSA است انجام شده است و در دبین به طور پیش فرض غیر فعال )disabled است.
+</p>
+
+<p dir="rtl">
+می توان آن را فعال کرد و دسترسی ها را تعیین نمود. در صورت فعال شدن، اولویت این کنترل دسترسی از DAC‌که پیشفرض است، بیشتر خواهد بود.
+</p>
+
+<p><a href="https://wiki.debian.org/SELinux">https://wiki.debian.org/SELinux</a></p>
+<p dir="rtl">
+همچنین AppArmor نیز MAc را در دبین پیاده سازی می کند که به ظور پیش فرض وجود دارد اما فعال نیست.<br>
+
+در دبین از فایروال iptables‌برای کنترل پورت های باز استفاده می شود. (به طور پیش فرض).
+
+</p>
+
+<p dir="rtl">
+احراز هویت:<br>
+به طور پیش فرض در سیستم های UNIX و از جمله آن ها دبین، احراز هویت توسط pam_unix‌انجام می شود. (pluggable authentication module) که فایل های کانفیگ آن در این آدرس های قرار دارد:
+
+</p>
+
+<p>
+/etc/passwd -rw-r--r-- 
+user account information
+/etc/shadow -rw-r----- 
+secure user account information
+/etc/group -rw-r--r-- 
+group information
+</p>
+
+<p dir="rtl">
+در فایل passwd این enrty‌ها وجود دارد
+
+</p>
+
+<p> user1:x:1000:1000:User1 Name,,,:/home/user1:/bin/bash </p>
+
+<p dir="rtl">
+که نام کاربر و پسورد رمز شده آن و گروه کاربر و .. معین می شوند.<br>
+این فایل به کمک فایل shadow‌برای authentication استفاده می شود.
+
+</p>
+
+<p dir="rtl">در فایل shadow این entry ها موجودند
+</p>
+
+<p>user1:$1$Xop0FYH9$IfxyQwBe9b8tiyIkt2P4F/:13262:0:99999:7:::
+</p>
+
+<p dir="rtl">
+که نام کاربر و پسورد رمز شده و تاریخ آخرین تغییر پسورد توسط کاربر و مدت زمانی که کاربر باید منتظر بماند تا مجددا بتواند پسوردش را تغییر دهد و … وجود دارد.<br>
+برای تغییر پسورد و بطور کلی مدیری auth می توان از دستورات زیر استفاده کرد:
+
+</p>
+
+<p>
+passwd<br>
+chage<br>
+…
+
+</p>
+
+<p dir="rtl">
+رمزنگاری:<br>
+در سیستم عامل های لینوکس از ابزارهایی نظیر gnupg می توان برای رمز کردن فایل ها استفاد کرد.
+که با دستور gpg‌شناخته و استفاده می شود. به طور پیشفرض این ابزار در دبین وجود دارد و می توان با آن فایل ها و دایرکتوری ها را به طور متقارن رمز کرد.
+
+</p>
+
+<p dir="rtl">
+همگام سازی:<br>
+در دبین به طور پیش فرض برای همگام سازی اکانت ها و خدمات ابری در settings بخش Online Accounts وجود دارد.
+
+</p>
+
+<p><img alt="" src="https://raw.githubusercontent.com/MohsenDehghankar/os-hw1/gh-pages/images/account.png" /></p>
+<p dir="rtl">
+برای همگام سازی فایل ها ابزاری تحت عنوان unison وجود دارد. که به طور پیش فرض نصب نیست. با این ابزار می توان حتی فایل های دو سیستم مجزا را از طريق ssh  همگام کرد. همچنین دو دایرکتوری لوکال.
+</p>
+
+<p dir="rtl">
+در مورد authentication با اثر انگشت ، می توان ابزار هایی نظیر 
+</p>
+
+<p>
+fprintd, libpam-fprintd  fprint-demo. <br>
+biometric-utils
+</p>
+
+<p dir="rtl">
+را نصب کرد. که این کار را برای دستگاه های این لیست پیاده سازی کرده اند:
+</p>
+
+<p><a href="https://www.freedesktop.org/wiki/Software/fprint/libfprint/">https://www.freedesktop.org/wiki/Software/fprint/libfprint/</a></p>
+<h3 id="_8"><p dir="rtl"> ارزیابی بسته ها </p></h3>
+<p><a href="https://debian-handbook.info/browse/stable/sect.package-authentication.html">https://debian-handbook.info/browse/stable/sect.package-authentication.html</a></p>
+<p dir="rtl">
+در فرایند نصب بسته ها و ابزار ها، امنیت بسیار مهم است. باید مطمین باشیم که بسته ای که داریم نصب می کنیم معتبر است و از mirror های دبین آمده است و در بین راه از طریق شبکه دستکاری نشده اند و یا حتی خراب نشده اند.
+برای از کاهش این ریسک، دبین سازوکاری را دارد که در حین نصب پکیج، مشخص می کند که این پکیج همان پکیجی است که از maintainer تولید شده است و دچار تغییر نشده است.
+
+</p>
+
+<p dir="rtl">
+این کار توسط مجموعه ای از الگوریتم های رمز نگاری و hash اتفاق می افتد ( signature ).
+</p>
+
+<p dir="rtl">
+برای هر mirror، یک فایل InRelease وجود دارد که در آن یک فایل signed وجود دارد. همچنین فایل دبگری تحت عنوان Release وجود دارد. هر دو این لیستی از پکیج های این mirror‌را نگه داری می کنند به همراه hash آن ها که تغییر در آن ها قابل تشخیص باشد.
+</p>
+
+<p dir="rtl">
+در Release‌بر خلاف InRelsea فایل signature  ( Rease.gpg به صورت جدا قرار دارد.
+</p>
+
+<p dir="rtl">
+برنامه apt که وظیفه مدیریت بسته ها را برعهده دارد مجموعه از کلید های gnupg را نگه داری می کند که با استفاده از آن ها می توان signature  ها را verify کرد. این کلید ها در 
+</p>
+
+<p>
+/etc/apt/trusted.gpg.d/
+/etc/apt/trusted.gpg
+</p>
+
+<p dir="rtl">
+ذخیره شده اند و با دستور apt-key fingerprints قابل مشاهده هستند.
+</p>
+
+<p dir="rtl">
+
+کلید های رسمی دبین در این فایل ها توسط debian-archive-keyring مدیریت و آپدیت می شوند.<br>
+
+در دبین راه حل مستقیمی برای کنترل دسترسی میکروفون و وب کم وجود ندارد (البته برنامه هایی که در حال استفاده هستند را می توان دید). این کنترل ها معمولا در سطح بالاتر در اپلیکیشن ها انجام می شوند. (مثلا کروم).
+
+</p>
 
 <h2 id="_9"><a name="build"></a> <p dir="rtl" style="font-size: 20px"> ساخت توزیع</h2>
 <p dir="rtl">
@@ -821,13 +687,14 @@ configure the grub<br>
         Home
       </a>
     </div>
+    
+  </div>
 
     <br>
 </div>
 
 <footer class="col-md-12 wm-page-content">
-    <p>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a> using <a href="">Windmill Dark</a> theme by
-        None (noraj).</p>
+  <p>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a> using <a href="">Windmill Dark</a> theme by None (noraj).</p>
 </footer>
 
 </body>

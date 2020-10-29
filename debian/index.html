@@ -616,6 +616,36 @@ sudo apt-get install build-essential linux-source bc kmod cpio flex cpio libncur
 
 </p>
 
+<p><pp dir="rtl">
+همچنین دستور زیر یک فایل کانفیگ استاندارد برای معماری خواسته شده می‌سازد:<br>
+</p></p>
+<p>
+make ARCH=i386 defconfig
+</p>
+
+<p dir="rtl">
+دستور زیر یک کانفیگ اختصاصی با توجه به ماژول های لود شده فعلی می‌سازد:<br>
+</p>
+
+<p> 
+make localmodconfig
+</p>
+
+<p dir="rtl">
+پس از ساخت فایل کانفیگ مراحل کامپایل کرنل شروع می‌شود که در زیر به صورت خیلی خلاصه آمده است:<br>
+</p>
+
+<p>
+make -j8    ->    compile using 8 cores<br>
+make_modules_install        ->    install the modules<br>
+set a new kernel …        ->    vmlinuz-YourKernelName<br>
+set init ram fs            ->    initramfs-YourKernelName<br>
+set system.map        ->    System.map-YourKernelName<br>
+System map kernel symlink<br>
+configure the grub<br>
+
+</p>
+
 <h2 id="_10"><a name="doc"></a> <p dir="rtl" style="font-size: 20px"> مستندات</h2>
 <p>Ali </p>
 
